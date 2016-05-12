@@ -1,5 +1,14 @@
-
+<<<<<<< HEAD
 /**{outline: solid 1px rgba(255,0,0,0.3);}*/
+
+=======
+
+<<<<<<< HEAD
+/**{outline: solid 1px rgba(255,0,0,0.3);}*/
+=======
+*{outline: solid 1px rgba(255,0,0,0.3);}
+>>>>>>> 44a5ac853a3faaafd43db013f85b0acb77260d00
+>>>>>>> cfe37156dfcaec76dfc6c6f5a66e2cf5f3162ed2
 
 .portada{
 	background-image: url(../img/background/hero.jpg);
@@ -74,15 +83,25 @@
 	margin-top: 20px;
 	padding-bottom: 20px; 
 }
+<<<<<<< HEAD
 .icondos p{
 	margin-left: 40px;
 	margin-top: -25px;
 }*/
+=======
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 44a5ac853a3faaafd43db013f85b0acb77260d00
+>>>>>>> cfe37156dfcaec76dfc6c6f5a66e2cf5f3162ed2
 /*parte1*/
 
 .uno{
 	display:block;
 	margin:90px 0px;
+	padding: 30px;
+	padding-left: 100px;
 	}
 .uno i{
 	font-size:45px;
@@ -93,24 +112,36 @@
 	color:#484848;	
 	}
 .uno .col-md-4{
-	padding: 10px 40px;
+	padding: 0px 30px;
+	width: 300px;
+	margin: 0px 20px;
 	}
 .uno p{
 	color:grey;
 	margin-bottom:70px;
 	}
+<<<<<<< HEAD
+
+/*parte3*/
+.tres{
+=======
 /*parte2*/
 
 /*parte3*/
 .tres{
 
+>>>>>>> 44a5ac853a3faaafd43db013f85b0acb77260d00
 	margin:50px 0px 0px;
 	background-color: #F2F7F7; 
+	padding-top: 30px;
 	}
 .tres h1 {
 	color:#484848;	
+<<<<<<< HEAD
+=======
 	margin:50px 0px;
 	background-color: #F7F7F7; 
+>>>>>>> 44a5ac853a3faaafd43db013f85b0acb77260d00
 	}
 .tres.menu {
 	text-decoration:none;
@@ -120,21 +151,28 @@
 .tres a{
 	text-decoration:none;
 	color:#484848;	
+<<<<<<< HEAD
+=======
 	color: #BEBFBE;	
+>>>>>>> 44a5ac853a3faaafd43db013f85b0acb77260d00
 	font-size: 14px;
 	background-color: #FFF;
 	padding: 9px 12px;
 	font-weight: bold;
 }
 .tres p {
-	margin:24px;
+	margin: 24px;
+	color:grey;	
+	}
+.tres .fondito p {
+	margin: 7px;
 	color:grey;	
 	}
 .tres .fondito {
 	background-color: white;
-	padding:15px;
+	padding:10px;
 	width: 450px;
-	margin:20px;
+	margin: 20px;
 	}
 .tres img{
 	width: 100%;
@@ -154,10 +192,13 @@
 	height: 400px;
 	margin: 0px;
 	background-color: rgba(0,0,0,0.4);
+<<<<<<< HEAD
+	}
+=======
 }
+>>>>>>> 44a5ac853a3faaafd43db013f85b0acb77260d00
 .city img{
 	position: absolute;
-	height: 400px;
 	z-index: -1000;
 	width: 100%
 	}
@@ -179,10 +220,11 @@
 	margin:0px;
 	background-color: #F2F7F7;
 	padding-top: 20px; 
+	padding-left: 30px;
 	}
 .cuatro p{
 	color: grey;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	}
 .cuatro .container h1{
 	background-color: #484848;
@@ -198,7 +240,7 @@
 	margin-bottom: 30px
 	}
 .cuatro .col-md-4{
-	padding: 10px 40px;
+	padding: 10px 17px;
 	background-color: #FFF;
 	margin-left:18px;
 	margin-right: 18px;
@@ -217,6 +259,10 @@
 	margin:5px 15px 50px; 
 	font-weight: bold;
 	}	
+.celeste{
+	background-color: #11A299 !important;
+	color: #FFF !important;
+	}
 /*parte5*/
 .contacto{
 	background-image: url(../img/background/contactus.jpg);
@@ -300,3 +346,5 @@
 .piedepagina .glyphicon{
 	font-size: 10px;
 }
+@media(max-width:750px){
+	}
