@@ -1,5 +1,5 @@
-*{outline: solid 1px rgba(255,0,0,0.3);}
-
+/**{outline: solid 1px rgba(255,0,0,0.3);}
+*/
 /*portada*/
 
 
@@ -7,51 +7,136 @@
 
 .uno{
 	display:block;
-	margin:70px 0px;
+	margin:90px 0px;
 	}
-span{
+.uno i{
 	font-size:45px;
+	color:#11A299;
 	}
-h2{
+.uno h2{
 	margin-top:10px;
+	color:#484848;	
 	}
 .uno .col-md-4{
 	padding: 10px 40px;
+	}
+.uno p{
+	color:grey;
+	margin-bottom:70px;
 	}
 /*parte2*/
 
 /*parte3*/
 .tres{
-	margin:50px 0px;
-	background-color: #E8E8E8; 
+	margin:50px 0px 0px;
+	background-color: #F2F7F7; 
 	}
-.menu {
-	text-decoration:none;
-	padding-top: 27px;
+.tres h1 {
+	color:#484848;	
 	}
-a{
+.tres.menu {
 	text-decoration:none;
-	color:grey;	
+	padding: 30px;
+	border:30px;
+	}
+.tres a{
+	text-decoration:none;
+	color:#484848;	
 	font-size: 14px;
-	margin:7px;	
+	background-color: #FFF;
+	padding: 9px 12px;
+	font-weight: bold;
 }
-.fondito {
+.tres p {
+	margin:24px;
+	color:grey;	
+	}
+.tres .fondito {
 	background-color: white;
 	padding:15px;
-	width: 550px;
+	width: 450px;
+	margin:20px;
 	}
 .tres img{
 	width: 100%;
 	}
-.tres .col-md-6{
-	padding: ;
+.tres .container{
+	padding-left: 110px;
+	}
+.tres button{
+	color: #B9C3C2;
+	background-color:#484848;
+	padding: 11px;
+	margin:10px; 
+	font-weight: bold;
 	}
 .city{
-	background: url(../img/background/city.jpg);
-	height: 500px;
-	opacity: 2;
+	position: relative;
+	height: 400px;
+	margin: 0px;
+	background-color: rgba(0,0,0,0.4);
+	p
+	}
+.city img{
+	position: absolute;
+	height: 400px;
+	z-index: -1000;
+	width: 100%
+	}
+.div{
+	position: absolute;
+	height: 400px;
+	text-align: center;
+	margin: 100px 350px;
+	color: #FFF;
+	}
+.city button{
+	background-color: rgba(255,255,255, 0.1);
+	border-color:rgba(255,255,255, 0.1);
+	color: #FFF;
 	}
 
 /*parte4*/
-
+.cuatro{
+	margin:0px;
+	background-color: #F2F7F7;
+	padding-top: 20px; 
+	}
+.cuatro p{
+	color: grey;
+	margin-bottom: 30px;
+	}
+.cuatro .container h1{
+	background-color: #484848;
+	color: #FFF;
+	padding:20px 5px;
+	margin-bottom: 0px;
+	}
+.cuatro .container h4{
+	background-color: #F2F7F7;
+	color: #484848;
+	padding:35px 5px;
+	margin-top: 0px;
+	margin-bottom: 30px
+	}
+.cuatro .col-md-4{
+	padding: 10px 40px;
+	background-color: #FFF;
+	margin-left:18px;
+	margin-right: 18px;
+	width: 300px;
+	}
+.cuatro .container{
+	padding: 20px 60px;
+	}	
+.cuatro .container hr{
+	margin: 0px 0px 15px;
+	}
+.cuatro button{
+	color: #B9C3C2;
+	background-color:#484848;
+	padding: 5px 20px;
+	margin:5px 15px 50px; 
+	font-weight: bold;
+	}	
 /*parte5*/
