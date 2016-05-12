@@ -477,3 +477,51 @@
 	margin:5px 15px 50px; 
 	font-weight: bold;
 	}
+.abajo{
+	margin: 50px auto;
+}
+.input-group{
+	margin: 30px auto 0;
+}
+.input-group .form-control{
+	background-color: rgba(0,0,0,0.5);
+}
+.abajo .derecha{
+	text-align: left;
+}
+.abajo .derecha .glyphicon{
+	font-size: 14px;
+	margin-right: 5px;
+}
+.abajo button{
+	background-color: #01DFD7;
+	border-color: 1px solid #01DFD7;
+	height: 50px;
+	width: 100px;
+	float: left;
+	margin-left: 37px;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	color: #fff;
+}
+.abajo .derecha{
+	padding-right: 70px;
+	padding-left: 70px;
+	line-height: 1.7em;
+	margin-top: 40px;
+}
+.abajo .derecha h4{
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+.abajo .derecha p{
+	margin-bottom: 20px;
+}
+.contacto h3
+{
+	margin-top: 150px;
+}
+.contacto .input-group{
+	width: 100px;
+	margin-right: 30px;
+}
